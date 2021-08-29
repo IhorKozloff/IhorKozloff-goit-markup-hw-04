@@ -66,13 +66,15 @@ header {
 /* [1.2] Navigation and Contacts */
 
 .navigation {   
-    margin: 32px 330px auto auto;
+    margin: 32px 285px auto auto;
     
 } 
 .contacts {
     margin-top: 32px;;
 }
-
+.contacts-icon {
+    margin-right: 10px;
+}
 
 .navigation__item:not(:last-child),
 .contacts__item:not(:last-child) {
@@ -235,6 +237,22 @@ h2 {
     color: #757575;
     
 } 
+.team-social-links {
+    display: flex;
+    justify-content: center;
+}
+.social-links-item {
+    margin-right: 10px;
+}
+.social-link {
+    width: 44px;
+    height: 44px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+}
 
 /*       [1.7]  FOOTER          */
 
